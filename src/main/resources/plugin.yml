@@ -1,0 +1,6 @@
+name: Anti-Autoclicker
+version: '${project.version}'
+main: antiautoclicker.nick.antiautoclicker.Nick.antiautoclicker
+api-version: 1.19
+authors: [ Nick_the_block ]
+description: Punishes players who use auto clickers

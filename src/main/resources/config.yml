@@ -1,0 +1,15 @@
+# Length of time in SECONDS somebody is clicking for clicks_to_kick number of clicks
+time_clicking: 1.0
+# Number of clicks to kick somebody that is clicking for time_clicking
+clicks_to_kick: 9
+
+# Whether to kick the player
+kick_player: true
+kick_reason: "Kicked for auto-clicking"
+
+# Notify people with permission antiautoclicker.notify
+# This also notifies any OPED players
+notify_admin: true
+notify_admin_message: "&4%PLAYER% has been kicked for using an autoclicker."
+
+config_version: 1.0
