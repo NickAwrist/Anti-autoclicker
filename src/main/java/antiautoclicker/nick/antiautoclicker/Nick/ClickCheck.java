@@ -26,8 +26,11 @@ public class ClickCheck implements Listener {
 
         Entity entityHitting = player.getTargetEntity(5);
 
+        boolean isRiding = (player.getVehicle() != null);
+        boolean isHoldingPickaxe = player.getActiveItem().getType().toString().toLowerCase().contains("pickaxe");
+
         // If player is hitting an entity
-        if (entityHitting != null) {
+        if (entityHitting != null && !isRiding && !isHoldingPickaxe) {
 
             // Add player to the list that keeps track of player clicks
             plugin.addPlayer(player);
